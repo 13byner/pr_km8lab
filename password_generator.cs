@@ -13,7 +13,7 @@ class Program
 
     static string GeneratePassword(int length)
     {
-        const string validChars = "abcdefghijklmnopqrstuvwxyz";
+        const string validChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()";
         Random random = new Random();
         char[] passwordChars = new char[length];
 
